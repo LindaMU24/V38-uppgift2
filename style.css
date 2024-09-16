@@ -1,0 +1,21 @@
+body {
+    background-color: blanchedalmond;
+}
+div {
+    border: 1px solid grey;
+    margin: 3px;
+    padding: 3px;
+}
+.container {
+    display: flex;
+    flex-direction: row;
+}
+.container div {
+    flex: 1 1 auto;
+    text-align: center;
+    background-color: beige;
+    
+}
+div:hover {
+    background-color: grey;
+}
